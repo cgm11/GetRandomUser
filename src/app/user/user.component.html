@@ -1,0 +1,17 @@
+<div class="center-items">
+    <div class="ui card">
+        <div class="image">
+            <img [src]="picture" />
+        </div>
+        <div class="content">
+            <a class="header">{{ name }}</a><br>
+            <div class="meta">
+                <span class="email">Email: {{ email }}</span><br>
+                <span class="phone">Phone: {{ phone }}</span>
+            </div>
+        </div>
+        <div class="extra content center-items">
+            <button (click)="handleClick()" class="ui teal basic button">Get random user</button>
+        </div>
+    </div>
+</div>
